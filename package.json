@@ -1,0 +1,24 @@
+{
+  "name": "@emdc/logger",
+  "version": "0.1.0",
+  "description": "JS logging library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emdc/logger.git"
+  },
+  "keywords": [
+    "js",
+    "JavaScript",
+    "logging"
+  ],
+  "author": "Richard Elert <i@emdc.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emdc/logger/issues"
+  },
+  "homepage": "https://github.com/emdc/logger#readme"
+}

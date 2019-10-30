@@ -44,9 +44,11 @@ class Logger {
 
     levels.forEach((level) => {
       if (resultLevels.includes(level)) {
-        this[level] = (...args) => this._handleRecord({
+        this[level] = (message, detailed) => this._handleRecord({
+          timestamp: Date.now(),
           level,
-          args
+          message,
+          detailed
         });
       } else {
         this[level] = () => null;

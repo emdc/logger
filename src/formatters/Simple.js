@@ -3,7 +3,7 @@ import BaseFormatter from './Base';
 
 class SimpleFormatter extends BaseFormatter {
   format (record) {
-    return `[${record.level}] ${record.args.join(', ')}`;
+    return `[${record.level}] ${record.message}`;
   }
 }
 

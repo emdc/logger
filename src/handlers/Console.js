@@ -6,17 +6,17 @@ import Level from '../Level';
 const getStyleByLevel = (level) => {
   switch (level) {
     case Level.Trace:
-      return 'background: #ffffff; color: #969696';
+      return 'background: transparent; color: #969696';
     case Level.Info:
-      return 'background: #ffffff; color: #00aecc';
+      return 'background: transparent; color: #00aecc';
     case Level.Warning:
-      return 'background: #ffffff; color: #f67731';
+      return 'background: transparent; color: #f67731';
     case Level.Error:
     case Level.Critical:
-      return 'background: #ffffff; color: #ff4162';
+      return 'background: transparent; color: #ff4162';
     case Level.Debug:
     default:
-      return 'background: #ffffff; color: #333333';
+      return 'background: transparent; color: #333333';
   }
 };
 
